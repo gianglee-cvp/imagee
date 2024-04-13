@@ -1,0 +1,252 @@
+body{
+  height: 3000px;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff;
+  height: 55px; 
+  position:fixed ;
+  margin-top: 0px;
+  top:0;
+  right: 0; 
+  left:0;
+  align-items: center;
+  z-index: 2;
+
+}
+.left-section{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+}
+.menuimage{
+  height: 30px;
+  margin-left: 20px;
+  object-fit: cover;
+}
+.youtubeicon{
+   height: 30px;
+   margin-left: 20px;
+   object-fit: cover;
+}
+.youtube{
+  font-size: 16px;
+  padding-bottom: 4px;
+  font-weight: 700;
+}
+.mid-section{
+
+  width: 570px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 35px;
+  border-width: 0.5px;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: grey;
+}
+.searchbox{
+  height: 32px;
+  width: 500px;
+  border-width: 0.5px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-style: solid; 
+  border-left: 0px;
+  padding-left: 17px;
+  font-size:  15px;
+  box-shadow: inset 0px 0px 0.5px 0px rgba(0,0,0,1);
+}
+.searchicon-container{
+  height: 35px;
+  width: 45px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+
+}
+.searchicon{
+  height: 18px;
+  margin-left: 10px;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-width: 0.2px;
+  
+  
+}
+.voiceicon-container{
+  margin-left: 35px;
+  background-color: rgb(201, 198, 198);
+  height: 35px;
+  border-radius: 18px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.voiceicon{
+  height: 20px;
+}
+.right-section{
+  margin-right: 40px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-section ,img{
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile{
+  border-radius: 20px;
+  height: 40px;
+}
+.left-container{
+  display: flex;
+  height: 700px;
+  flex-direction: column;
+  position: fixed;
+  top: 60px;
+  left: 12px; 
+  width: 200px;
+  overflow-y: scroll;
+
+}
+.left-container::-webkit-scrollbar { 
+  width: 8px; 
+  
+} 
+
+.left-container::-webkit-scrollbar-track { 
+  background: #ffffff; 
+} 
+.left-container::-webkit-scrollbar-track :hover { 
+  background: #797979; 
+} 
+.left-container::-webkit-scrollbar-thumb { 
+  background: #ffffff; 
+} 
+
+.left-container::-webkit-scrollbar-thumb:hover { 
+  background: #979797; 
+} 
+
+.left-container::-webkit-scrollbar-button { 
+  display: none; 
+}
+.fstcollum{
+  display: flex;
+  flex-direction :row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  
+  border-radius: 15px ;
+}
+.fstcollum:hover{
+  background-color: rgb(224, 224, 224);
+}
+.homebutton{
+  margin-right: 20px;
+  
+  display: inline-block;
+  margin-left: 10px;
+}
+.hometext{
+  display: inline-block;
+  font-weight: 700;
+}
+
+.youtext{
+  font-weight: 800;
+  font-size: 28px;
+  width: 50px;
+  margin-left: 10px;
+
+}
+.you1{
+
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.videogrid{
+  position: absolute;
+  left: 250px;
+  top: 100px;
+  z-index: 0;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+}
+.video-container{
+  background-color: aqua;
+  width: 350px;
+  height: 250px;
+
+  
+}
+.video-container2{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 250px;
+  
+}
+.thumbnail-picture{
+  width: 350px ;
+  height: 150px;
+  object-fit: cover;
+}
+.title-video{
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  margin-top: 10px;
+
+}
+
+.info-picture ,img{
+height: 40px;
+object-fit: cover;
+border-radius: 25px;
+}
+.title-text{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 1fr;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.main-title ,p{
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.chanel-name{
+  color: #8d8c8c;
+}
